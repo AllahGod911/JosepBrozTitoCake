@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    align-items: stretch;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+
+
+.TopBar {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#TopBarContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    margin-top: -10px;
+    align-items: center;
+    border-radius: 5px;
+    flex-basis: 500px, 300px;
+}
+
+
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin:0px;
+}
+
+.par{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    max-width: 500px;
+    padding: 10px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#parContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#JBP {
+    padding-left: 100px;
+}
+
+.footer {
+    background-color: chocolate;
+    margin: 10px 0px -9px -9px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ImageContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: red;
+    padding: 15px;
+    max-width: 500px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.ImageContainer b {
+    color: white;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.callToAction {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-self: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
